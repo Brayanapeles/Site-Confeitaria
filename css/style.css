@@ -1,0 +1,498 @@
+/*Reset CSS */
+
+/* (* significa seletor universal) */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#countainerMenu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(31, 19, 9);
+}
+h1{
+    font-family: colibri;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    height: 40px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding-top: 10px;   
+    padding-left: 8px;
+}
+.conteudo{
+    width: 1300px;
+    /* Permite herdar o valor do elemento pai */
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    width: 100px;
+    height: inherit;
+    float: left;
+}
+#menu{
+    width: 900px;
+    height: inherit;
+    float: left;
+}
+
+
+#redesSociais{
+    width: 180px;
+    height: inherit;
+    float: right;
+    vertical-align: middle;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+#listMenu{
+    width: inherit;
+    height: inherit;
+
+}
+.menuItem{
+    width: 180px;
+    height: inherit;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+    /*box-sizing: border-box;*/
+    /* border-box Trava o elemento para que não sofra mudanças de tamanho */
+
+}
+.menuItem:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.4em;
+    background-color: rgb(248, 204, 212);
+    transition: 0.7s;
+}
+
+
+.sociaisItem{
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    
+} 
+
+
+/* Seção do Slogan, Countainer e Imagem */
+
+#countainerSlogan{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    background-image: url(../imagens/Slogan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 130px;
+}
+#slogan{
+    width: 600px;
+    height: 200px;
+    background-color: rgba(255, 223, 247, 0.877);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#slogan p{
+    font-family: cursive;
+    font-size: 2em;
+    color: rgb(27, 10, 10);
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*Seção da Empresa */
+
+#countainerEmpresa{
+    width: 100%;
+    /* height: 460px; */
+    height: 85vh;
+    background-color: rgb(19, 11, 5);
+}
+
+#tituloEmpresa{
+    height: 50px;
+    width: 100%px;
+}
+#raizEmpresa{
+    width: 1300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fotoPrincipalEmpresa{
+    height:375px;
+    width: 400px;
+    float: left;
+    padding-top: 33px;
+}
+#imagemPrincipal{
+    margin-right: auto;
+    margin-left: auto;
+    width: 380px;
+    height: 330px;
+}
+#divMaeEmpresa{
+    float: right;
+    width: 892px;
+    height: 400px;
+    margin-left: 8px;
+}
+
+#descricaoEmpresa{
+    width: 892px;
+    height: 200px;
+    font-family: Arial;
+    color: white;
+    font-size: 1.4em;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+#descricaoEmpresa2{
+    float: left;
+    width: 500px;
+    height: 200px;
+    font-family: Arial;
+    color: white;
+    font-size: 1.4em;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 15px;
+
+}
+#caixafotosEmpresas{
+    float: right;
+    height: 200px;
+    width: 380px;
+}
+.EmpresaImagens2{
+    float: left;
+    width: 180px;
+    height: 190px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    border-radius: 90px;
+}
+
+/*Seção Serviços */
+
+#countainerServicos{
+    width: 100%;
+    /* height: 430px; */
+    height: 85vh;
+    background-color: pink;
+    
+}
+
+#tituloServicos{
+    height: 50px;
+    width: 100%px;
+    margin-bottom: 50px;
+}
+
+#serivosLadoEsquerdo{
+    width: 615px;
+    height: 350px;
+    float: left;
+    background-color: rgba(240, 128, 128, 0.459);
+    margin-right: 15px;
+    padding-left: 5px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+#fotosDasFormasDePagamentos{
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.imagensDinheiroCartao{
+    width: 117px;
+    height: 120px;
+    float: left;
+    margin-left: 15px;
+}
+.serivosImagens{
+    margin-left: auto;
+    margin-right: auto;
+    width: 117px;
+    height: 120px;
+    vertical-align: middle;
+}
+#servicosLadoDireito{
+    width: 650px;
+    height: 350px;
+    float: right;
+
+}
+#formaDePagamento{
+    height: 200px;
+    text-align: center;
+    font-size: 1.7em;
+    color: rgb(26, 8, 8);
+    margin-top: 10px;
+    
+
+}
+#descricaoPagamento1{
+    width: 372px;
+    height: 350px;
+    float: left;
+    margin-right: 5px;
+    background-color: rgba(240, 128, 128, 0.459);
+    margin-right: 3px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(26, 8, 8);
+    border-radius: 15px;
+    padding-top: 15px;
+}
+#countainerFotoPagamento{
+    width: 250px;
+    height: 350px;
+    float: right;
+    margin-right: 8px;
+
+}
+#fotoPagamento{
+    height: 175px;
+    width: 250px;
+}
+#imagemPagamento1{
+    margin-left: 25px;
+
+}
+#fotoPagamento2{
+    height: 175px;
+    width: 250px;
+}
+#imagemPagamento2{
+    margin-left: -18px;
+    margin-right: auto;
+
+}
+
+/*Seção Produtos */
+
+#countainerPrudutos{
+    width: 100%;
+    /* height: 550px; */
+    height: 85vh;
+    background-color:  rgb(19, 11, 5);
+    background-image: url(../imagens/gramado.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.tituloComFundo{
+    
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 192, 203, 0.822);
+    color:rgb(27, 10, 10);
+}
+
+#countainerHospedeiro{
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+
+}
+
+.caixaProdutos{
+    width: 426px;
+    height: 480px;
+    float: left;
+    color: black;
+    font-size: 1.4em;
+    margin-left: 5px;
+    
+    margin-top: 8px;
+}
+
+.nomeProduto{
+    width: 426px;
+    text-align: center;
+    height: 50px;
+    background-color: rgba(255, 192, 203, 0.849);
+
+}
+
+.imagemProduto{
+    width: 426px;
+    height: 250px;
+    background-color: rgba(255, 192, 203, 0.788);
+}
+
+.descricaoProduto{
+    width: 426px;
+    height: 170px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 20px;
+    background-color: rgba(255, 192, 203, 0.863);
+}
+
+/*Seção Contatos */
+
+#countainerContatos{
+    width: 100%;
+    /* height: 400px; */
+    height: 85vh;
+    background-color: rgb(19, 11, 5);
+}
+
+#tituloContatos{
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: Colibri;
+    margin-bottom: 55px;
+}
+
+#contatosRaiz{
+    height: 350px;
+    /* height: 85vh; */
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#FotoPrincipalContatos{
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+#contatosFotoPrincipal{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#countainerContatosFotoInformacao{
+    width: 980px;
+    float: right;
+    height: 330px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#descricaoPrincipalContatos{
+    float: left;
+    height: 330px;
+    width: 44%;
+    color: white;
+    text-align: justify;
+    font-size: 1.4em;
+    margin-right: 4%;
+}
+
+#descricaoSecundariaContatos{
+    float: right;
+    height: 330px;
+    width: 50%;
+}
+
+#foto1secundaria{
+    width: 25%;
+    height: 45%;
+    float: left;
+}
+
+#descricao1Secundaria{
+    width: 72%;
+    height: 45%;
+    /*margin-left: 1%; */
+    float: right;
+    margin-right: 1%;
+    color: white;
+    text-align: center;
+    /*font-size: 1.4em;*/
+    font-family: colibri;
+    padding-top: 45px;
+    margin-right: 10px;
+    font-size: 1.4em;
+
+    text-decoration: none;
+    font-style: no;
+}
+
+#foto2secundaria{
+    width: 25%;
+    height: 45%;
+    float: left;
+}
+
+#descricao2Secundaria{
+    width: 73%;
+    height: 45%;
+    margin-left: 1%;
+    float: right;
+    margin-right: 1%;
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: colibri;
+    padding-top: 45px;
+}
+
+.fotoSecundariaContatos{
+    width: 80%;
+    height: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    margin-bottom: 2%;
+}
+/*Seção Rodapé */
+
+.rodape{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(226, 178, 186);
+    /*background-image: url(../imagens/testeRodape.jpg);*/
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1rem;
+    font: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
